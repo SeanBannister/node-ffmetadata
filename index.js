@@ -120,6 +120,8 @@ function spawnWrite(src, dst, data) {
 		src, // input from src path
 		"-map",
 		"0",
+    "-id3v2_version",
+    "3",
 		"-codec",
 		"copy",
 	];
